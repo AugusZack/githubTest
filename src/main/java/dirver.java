@@ -4,6 +4,13 @@ public class dirver {
         for (int i = 0; i < 100; i++) {
             Thread.sleep(100);
             System.out.println("这个是第" + i + "次输出");
+
+        }
+
+        for (int i = 0; i < 100; i++) {
+            Thread.sleep(10);
+            System.out.println("hello");
+
         }
     }
 }
